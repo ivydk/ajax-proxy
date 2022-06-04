@@ -1,18 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./assets/style.css">
-    <title>Simple API with Proxy Test</title>
-    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title class="title"></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
-
 <body>
-    <h1>See the console for an answer</h1>
-    <script src="./assets/app.js"></script>
-</body>
+<img id="banner" src="" alt="banner" width="100%">
+<section class="section">
+    <div class="is-align-content-center">
+    <div class="tile is-ancestor">
+        <div class="tile is-parent">
+            <div class="tile is-child">
+                <h1 class="title" id="title"></h1>
+                <p class="subtitle" id="subtitle"></p>
+            </div>
+        </div>
+        <div class="tile is-parent is-justify-content-right is-2">
+            <div class="tile is-child">
+                <img id="featured_image_url" src="" alt="banner">
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
 
+<!--<form action="controller.php" method="POST">-->
+<!--    <label for="collection"></label>-->
+<!--    <input name="collection"  value="goblintownwtf" type = "text"/>-->
+<!--    <input type="submit" name="submit" value = "submit"/>-->
+<!--</form>-->
+
+<script src="./assets/app.js"></script>
+
+</body>
 </html>
