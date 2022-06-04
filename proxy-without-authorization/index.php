@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
 <body>
-<img id="banner" src="" alt="banner" width="100%">
+<figure class="image is-3by1">
+<img id="banner" src="" alt="banner" style="object-fit:cover">
+</figure>
 <section class="section">
     <div class="is-align-content-center">
     <div class="tile is-ancestor">
@@ -19,7 +21,7 @@
         </div>
         <div class="tile is-parent is-justify-content-right is-2">
             <div class="tile is-child">
-                <img id="featured_image_url" src="" alt="banner">
+                <img id="featured_image_url" src="" alt="featured_image_url">
             </div>
         </div>
     </div>
